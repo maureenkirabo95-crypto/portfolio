@@ -230,4 +230,30 @@ section{
     align-self: center;
     cursor: pointer;
     background: transparent;
+}@media(max-width:768px){
+    nac{
+        padding: 15px 20px;
+    }
+    nav ul {
+        gap: 15px;
+    }
+    nav ul li a {
+        font-size: 13px;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    p {
+        font-size: 14px;
+    }
+    .about-wrapper {
+        flex-direction: column;
+        text-align: center;
+    }.skills-grid{
+        grid-template-columns: repate(2, 1fr);
+    }
+    .contact-links{
+        flex-direction: column;
+        align-items: center;
+    }
 }
